@@ -1,0 +1,37 @@
+.contact-div1{
+    text-align: center;
+}
+.contact-div1 h1{
+    font-size: 40px;
+    color: red;
+}
+.mail-link{
+    color: white;
+}
+.contact-div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color:black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.contact-icon{
+    font-size: 30px;
+}
+
+@media(max-width:950px){
+    .contact-div2{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .contact-div2 div{
+        border: 2px solid white;
+    }
+}

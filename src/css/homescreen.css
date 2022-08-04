@@ -1,0 +1,87 @@
+.body1{
+    margin: 5px;
+    text-align: center;
+    background-color:black;
+    color: white;
+}
+.body1 h1{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.body1 h2{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-weight: bold;
+}
+
+.body1 h3{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body1 p{
+    font-size: 20px;
+    padding-bottom: 2rem;
+    padding: 2rem;
+}
+.body2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
+.body3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+   
+
+.body4{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+   
+}
+.body4:hover{
+    box-shadow: 5px 5px 5px 5px aqua;
+}
+.body4 h2{
+    font-size: 2rem;
+    color: rgb(228, 19, 19);
+
+
+}
+.body4 ul{
+    list-style: none;
+    padding-right: 30px
+}
+.body4 ul li{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    
+}
+.icon{
+    font-size: 50px;
+    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.star-icon{
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    color: red;
+}
+@media(max-width:950px){
+    .body3{
+        display: flex;
+        flex-direction: column;
+    }
+}
